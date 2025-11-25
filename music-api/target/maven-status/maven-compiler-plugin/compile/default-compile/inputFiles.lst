@@ -1,0 +1,15 @@
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/Main.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/repository/Repository.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/model/Artista.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/controller/MusicaController.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/model/Musica.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/model/BaseEntity.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/service/ArtistaService.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/repository/ArtistaRepository.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/util/DatabaseUtil.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/repository/MusicaRepository.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/server/HttpServer.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/controller/ArtistaController.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/controller/Controller.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/util/JsonUtil.java
+/home/eduardo/Documents/Repos/lp2_/music-api/src/main/java/com/musicapi/service/MusicaService.java

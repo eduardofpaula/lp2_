@@ -1,0 +1,15 @@
+com/musicapi/controller/Controller.class
+com/musicapi/service/MusicaService.class
+com/musicapi/util/JsonUtil.class
+com/musicapi/model/Artista.class
+com/musicapi/Main.class
+com/musicapi/server/HttpServer.class
+com/musicapi/controller/MusicaController.class
+com/musicapi/controller/ArtistaController.class
+com/musicapi/repository/MusicaRepository.class
+com/musicapi/repository/ArtistaRepository.class
+com/musicapi/model/Musica.class
+com/musicapi/model/BaseEntity.class
+com/musicapi/service/ArtistaService.class
+com/musicapi/util/DatabaseUtil.class
+com/musicapi/repository/Repository.class

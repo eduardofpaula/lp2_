@@ -7,10 +7,7 @@ import com.musicapi.repository.MusicaRepository;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Service para lógica de negócio de Música
- * Demonstra separação de responsabilidades e baixo acoplamento
- */
+// serviço para lógica de negócio relacionada a Musica
 public class MusicaService {
     private final MusicaRepository musicaRepository;
     private final ArtistaRepository artistaRepository;

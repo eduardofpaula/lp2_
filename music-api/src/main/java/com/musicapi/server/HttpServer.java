@@ -6,9 +6,7 @@ import com.musicapi.controller.MusicaController;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
-/**
- * Servidor HTTP simples usando com.sun.net.httpserver
- */
+// servidor HTTP simples
 public class HttpServer {
     private final com.sun.net.httpserver.HttpServer server;
 

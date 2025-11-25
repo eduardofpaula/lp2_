@@ -12,10 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Controller REST para Música
- * Demonstra separação de responsabilidades e POLIMORFISMO
- */
+// controller musica, encapsulamento e polimorfismo
 public class MusicaController implements Controller {
     private final MusicaService musicaService;
 

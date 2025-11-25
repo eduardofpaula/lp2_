@@ -3,9 +3,7 @@ package com.musicapi;
 import com.musicapi.server.HttpServer;
 import com.musicapi.util.DatabaseUtil;
 
-/**
- * Classe principal da aplicação
- */
+// classe principal para iniciar a aplicação
 public class Main {
     private static final int PORTA = 8080;
 

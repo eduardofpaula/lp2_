@@ -12,10 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Controller REST para Artista
- * Demonstra separação de responsabilidades
- */
+// controoler artista
 public class ArtistaController implements Controller {
     private final ArtistaService artistaService;
 

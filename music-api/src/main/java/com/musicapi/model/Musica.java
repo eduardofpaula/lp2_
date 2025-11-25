@@ -5,24 +5,20 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-/**
- * Entidade Música - lado "N" do relacionamento 1:N
- * Demonstra HERANÇA e ENCAPSULAMENTO
- */
+// herança e encapsulamento
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 public class Musica extends BaseEntity {
     private String titulo;
-    private Integer duracao; // duração em segundos
+    private Integer duracao;
     private String album;
     private Integer anoLancamento;
-    private Long artistaId; // FK para Artista
+    private Long artistaId;
 
-    /**
-     * Implementação de método abstrato - demonstra POLIMORFISMO
-     */
+
+    //  metodo abstrato de polimorfismo
     @Override
     public boolean isValid() {
         return titulo != null && !titulo.trim().isEmpty()
@@ -30,10 +26,10 @@ public class Musica extends BaseEntity {
                 && artistaId != null;
     }
 
-    public String getDuracaoFormatada() {
-        if (duracao == null) return "00:00";
-        int minutos = duracao / 60;
-        int segundos = duracao % 60;
-        return String.format("%02d:%02d", minutos, segundos);
-    }
+//    public String getDuracaoFormatada() {
+//        if (duracao == null) return "00:00";
+//        int minutos = duracao / 60;
+//        int segundos = duracao % 60;
+//        return String.format("%02d:%02d", minutos, segundos);
+//    }
 }

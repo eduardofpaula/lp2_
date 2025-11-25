@@ -8,10 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Repository para Artista
- * Demonstra ENCAPSULAMENTO e separação de responsabilidades
- */
+// implementação do repositório para Artista java puro, inserindo com sql
 public class ArtistaRepository implements Repository<Artista> {
 
     @Override

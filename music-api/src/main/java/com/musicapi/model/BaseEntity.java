@@ -2,10 +2,7 @@ package com.musicapi.model;
 
 import lombok.Data;
 
-/**
- * Classe base abstrata para todas as entidades
- * Demonstra ABSTRAÇÃO e HERANÇA
- */
+// classe base para entidades com encapsulamento
 @Data
 public abstract class BaseEntity {
     protected Long id;

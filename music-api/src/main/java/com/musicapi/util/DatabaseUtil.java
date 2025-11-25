@@ -5,10 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- * Utilitário para gerenciar conexão com H2 Database
- * Demonstra ENCAPSULAMENTO e baixo acoplamento
- */
+// banco de dados H2 e inicializar tabelas
 public class DatabaseUtil {
     private static final String URL = "jdbc:h2:mem:musicdb;DB_CLOSE_DELAY=-1";
     private static final String USER = "sa";

@@ -8,10 +8,7 @@ import com.musicapi.repository.MusicaRepository;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Service para lógica de negócio de Artista
- * Demonstra separação de responsabilidades e baixo acoplamento
- */
+// serviço para lógica de negócio relacionada a Artista
 public class ArtistaService {
     private final ArtistaRepository artistaRepository;
     private final MusicaRepository musicaRepository;
@@ -54,7 +51,7 @@ public class ArtistaService {
             throw new IllegalArgumentException("Dados do artista inválidos");
         }
 
-        if (!artistaRepository.findById(id).isPresent()) {
+        if (artistaRepository.findById(id).isEmpty()) {
             throw new IllegalArgumentException("Artista não encontrado");
         }
 

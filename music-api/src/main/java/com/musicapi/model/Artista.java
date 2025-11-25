@@ -8,10 +8,7 @@ import lombok.NoArgsConstructor;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Entidade Artista - lado "1" do relacionamento 1:N
- * Demonstra HERANÇA (extends BaseEntity) e ENCAPSULAMENTO
- */
+// entidade artista com herança e encapsulamento
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,7 +18,7 @@ public class Artista extends BaseEntity {
     private String genero;
     private String paisOrigem;
 
-    // Relacionamento 1:N - Um artista tem várias músicas
+    // relacionamento 1:N
     private List<Musica> musicas = new ArrayList<>();
 
     public Artista(String nome, String genero, String paisOrigem) {
@@ -30,19 +27,17 @@ public class Artista extends BaseEntity {
         this.paisOrigem = paisOrigem;
     }
 
-    /**
-     * Implementação de método abstrato - demonstra POLIMORFISMO
-     */
+    // metodo abstrato de polimorfismo
     @Override
     public boolean isValid() {
         return nome != null && !nome.trim().isEmpty()
                 && genero != null && !genero.trim().isEmpty();
     }
 
-    public void adicionarMusica(Musica musica) {
-        if (musica != null) {
-            musicas.add(musica);
-            musica.setArtistaId(this.id);
-        }
-    }
+//    public void adicionarMusica(Musica musica) {
+//        if (musica != null) {
+//            musicas.add(musica);
+//            musica.setArtistaId(this.id);
+//        }
+//    }
 }

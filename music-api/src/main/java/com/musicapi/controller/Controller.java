@@ -4,9 +4,7 @@ import com.sun.net.httpserver.HttpExchange;
 
 import java.io.IOException;
 
-/**
- * Interface Controller - demonstra ABSTRAÇÃO e POLIMORFISMO
- */
+// interface base para controllers
 public interface Controller {
     void handle(HttpExchange exchange) throws IOException;
 }

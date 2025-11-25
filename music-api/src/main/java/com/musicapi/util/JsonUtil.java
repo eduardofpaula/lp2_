@@ -3,10 +3,7 @@ package com.musicapi.util;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-/**
- * Utilitário para conversão JSON <-> Objeto
- * Demonstra ENCAPSULAMENTO
- */
+// utilitário para conversão JSON
 public class JsonUtil {
     private static final Gson gson = new GsonBuilder()
             .setPrettyPrinting()

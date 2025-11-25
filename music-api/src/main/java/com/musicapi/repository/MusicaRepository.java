@@ -8,10 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Repository para Música
- * Demonstra ENCAPSULAMENTO e separação de responsabilidades
- */
+// implementação do repositório para Musica java puro, inserindo com sql
 public class MusicaRepository implements Repository<Musica> {
 
     @Override

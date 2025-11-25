@@ -60,3 +60,29 @@ música (n)
 - httpserver para criar servidor web simples
 
 ![img.png](img.png)
+
+### requisições
+
+atualizar artista
+![alt text](image.png)
+
+get todos os artistas
+![alt text](image-1.png)
+
+get por id
+![alt text](image-2.png)
+
+inserir artista
+![alt text](image-3.png)
+
+get todas musicas
+![alt text](image-4.png)
+
+get musica por id
+![alt text](image-5.png)
+
+inserir musica
+![alt text](image-6.png)
+
+deletar musica
+![alt text](image-7.png)
